@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+
+/* ------------------------ NAVBAR STYLING ----------------------------- */
+
+.nav-bar {
+    width: 100%;
+    background-color: #000 ;
+    display: flex;                      
+    justify-content: space-between;
+    height: 80px;
+    
+}
+
+.nav-bar .navlogo {
+    margin-left: 365px;
+}
+.nav-bar .navlogo img {
+    width: 175px; 
+    margin: 0;
+    padding: 0;
+    margin-top: -16px;                            
+}
+
+.nav-bar .navlogo img:hover {
+    cursor: pointer;
+}
+
+.nav-bar .nav-links {
+    margin-right: 385px;
+}
+
+.nav-bar .nav-links ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+    color: white;
+}
+
+.nav-bar .nav-links ul li {
+    margin-left: 35px;
+    list-style-type: none;
+}
+
+.nav-bar .nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav-bar .nav-links ul li a:hover {
+    color: #1ed760;
+}
+
+.nav-bar .nav-links ul li .gray {
+    color: rgb(230, 230, 230);
+}
+
+
+/* ------------------------ END OF NAVBAR STYLING ----------------------------- */
+
+
+
+/* ------------------------------ MAIN STYLING -------------------------------- */
+
+.main {
+    background-image: url(./images/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    width: 100%;
+    min-height: 893px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 65, 171);
+}
+
+.main .main-content .title {
+    color: #1ed760;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin-top: 220px;
+    letter-spacing: -7px;
+}
+
+.main .main-content .title h1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: -40px;
+    
+}
+
+.main .main-content .title .secondtitle {
+    margin-left: 250px;
+    letter-spacing: -7px;
+}
+
+.main .main-content .parag {
+    margin-top: 55px;
+    margin-left: 250px;
+    color:#1ed760;
+    font-weight: 600;
+}
+
+.main .main-content .btn button {
+    margin-top: 30px;
+    margin-left: 370px;
+    background-color: #1ed760;
+    border: none;
+    color: rgb(41, 65, 171);
+    font-weight: 700;
+    padding: 15px 40px;
+    font-family:"Poppins", sans-serif ;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2ms;
+}
+
+.main .main-content .btn button:hover {
+    background-color: #4fda80;
+    transform: scale(1.1);
+}
+
+/* ------------------------------ END OF MAIN STYLING -------------------------------- */
+
+/* ------------------------------ FOOTER STYLING -------------------------------- */
+
+.footer-container {
+    background-color: #000;
+}
+.footer {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.footer img {
+    width: 180px;
+    margin-left: 350px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.footer .footer-links {
+    display: flex;
+    flex-direction: row;
+    margin-left: -15px;
+    margin-top: 80px;
+}
+
+.footer .footer-links .links {
+    margin-left: 70px ;
+}
+
+.footer .footer-links .links p {
+    color: rgb(165, 165, 165);
+    font-family: "Poppins", sans-serif ;
+    font-weight: 600;
+}
+.footer .footer-links .links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.footer .footer-links .links a:hover {
+    color: #1ed760; 
+} 
+
+.footer .footer-sociallinks {
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.footer .footer-sociallinks i {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    padding: 17px 20px;
+    font-size: 22px;
+    margin: 5px;
+    border-radius: 51px ;
+}
+
+.footer .footer-sociallinks i:hover {
+    color: #1ed760;
+}
+
+.footer-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 100px 40px 100px;
+}
+
+
+.footer-footer .fl {
+    margin-top: 60px;
+    margin-left: 270px;
+}
+
+.footer-footer .fi {
+    margin-left: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.footer-footer .fl a {
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+    padding: 10px;
+    font-size: 12px;
+}
+
+.footer-footer .fl a:hover{
+    color: #1ed760;
+}
+
+.footer-footer .fi a {
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+    padding: 5px;
+    font-size: 12px;
+}
+
+.footer-footer .fi a:hover {
+    color: #1ed760;
+}
+
+.footer-footer .fi a img {
+    width: 10px;
+    background-color: gray;
+    border-radius: 50px;
+}
