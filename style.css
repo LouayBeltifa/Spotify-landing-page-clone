@@ -22,6 +22,10 @@ body {
     
 }
 
+.nav-bar .icon {
+    display: none;
+}
+
 .nav-bar .navlogo {
     margin-left: 365px;
 }
@@ -244,3 +248,238 @@ body {
     background-color: gray;
     border-radius: 50px;
 }
+
+
+/* ------------------------------ END OF FOOTER STYLING -------------------------------- */
+
+
+/* ------------------------------ RESPONSIVE STYLING -------------------------------- */
+
+@media only screen and (max-width: 1670px) {
+    .nav-bar .navlogo {
+        margin-left: 40px;
+    }
+    
+    .nav-bar .nav-links {
+        margin-right: 40px;
+    }
+    .footer img {
+        width: 180px;
+        margin-left: 200px;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+
+    .main {
+        background-image: url(./images/bursts.svg);
+        background-size: 140%;
+        background-position: 46% 4%;
+        width: 100%;
+        min-height: 893px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(41, 65, 171);
+    }
+    .main .main-content .title {
+        color: #1ed760;
+        font-size: 40px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        padding: 0;
+        margin-top: 220px;
+        letter-spacing: -7px;
+    }
+    
+    .main .main-content .title h1 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: -40px;
+        
+    }
+    
+    .main .main-content .title .secondtitle {
+        margin-left: 100px;
+        letter-spacing: -7px;
+    }
+    
+    .main .main-content .parag {
+        margin-top: 55px;
+        margin-left: 200px;
+        color:#1ed760;
+        font-weight: 600;
+    }
+    
+    .main .main-content .btn button {
+        margin-top: 30px;
+        margin-left: 300px;
+        background-color: #1ed760;
+        border: none;
+        color: rgb(41, 65, 171);
+        font-weight: 700;
+        padding: 15px 40px;
+        font-family:"Poppins", sans-serif ;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.2ms;
+    }
+    
+  }
+
+  @media only screen and (max-width: 1350px) {
+    .main {
+        background-image: url(./images/bursts.svg);
+        background-size: 200%;
+        background-position: 50% 100px;
+        width: 100%;
+        min-height: 893px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(41, 65, 171);
+    }
+    
+    .footer img {
+        width: 180px;
+        margin-left: 20px;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+
+
+    .footer-footer .fl {
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+
+    .footer-footer .fi {
+        margin-left: 200px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+  }
+
+  @media only screen and (max-width: 1175px) {
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer img {
+        margin-left: 44%;
+        margin-bottom: -90px;
+    }
+    .footer .footer-links {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .footer .footer-sociallinks {
+        margin-left: 43%;
+    }
+    .footer-footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+     .footer-footer .fl{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 7%;
+    }
+    .footer-footer .fi{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 7%;
+    }
+  }
+
+
+  @media only screen and (max-width: 825px) { 
+    .footer .footer-sociallinks {
+        margin-left: 40%;
+    }
+
+    .nav-bar a.icon {
+        display:flex;   
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+        margin-top: -10px;
+    }
+  }
+
+  @media screen and (max-width: 825px) {
+      .nav-bar .nav-links ul{
+        display: none;
+      }
+
+      .nav-bar .navlogo {
+          margin: 0;
+      }
+
+      .nav-bar .nav-links .icon {
+        margin-top: 20px;
+      }
+  }
+
+  @media screen and (max-width: 750px) {
+    .main {
+        background-image: none;
+        width: 100%;
+        min-height: 893px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(41, 65, 171);
+    }
+
+    .main .main-content .title {
+        color: #1ed760;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+        padding: 20px;
+        margin-top: 300px;
+        letter-spacing: -4px;
+    }
+
+    .main .main-content .title h1 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: -10px;
+        
+    }
+    
+    .main .main-content .title .secondtitle {
+        letter-spacing: -4px;
+    }
+    
+    .main .main-content .parag {
+        margin-top: 55px;
+        margin-left: 50px;
+        color:#1ed760;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+    .main .main-content .btn button {
+        margin-top: 30px;
+        margin-left: 170px;
+        background-color: #1ed760;
+        border: none;
+        color: rgb(41, 65, 171);
+        font-weight: 700;
+        padding: 15px 40px;
+        font-family:"Poppins", sans-serif ;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.2ms;
+    }
+    
+
+  }
